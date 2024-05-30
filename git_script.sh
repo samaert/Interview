@@ -23,7 +23,7 @@ fi
 git pull origin main --allow-unrelated-histories
 
 # 添加所有更改到暂存区
-git add .
+git add ./*
 
 # 提示用户输入提交信息
 echo "请输入提交描述："
